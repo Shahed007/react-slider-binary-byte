@@ -22,7 +22,7 @@ const SliderSection = ({ items, itemsPerSection, currentSlider }) => {
       {sections.map((section, index) => (
         <div
           key={index}
-          className={`grid grid-cols-1 md:grid-cols-2 duration-500 transition-all ease-in-out `}
+          className={`grid grid-cols-1 md:grid-cols-2 p-3 duration-500 transition-all ease-in-out `}
           style={{
             flex: "0 0 100%",
             boxSizing: "border-box",
@@ -32,10 +32,13 @@ const SliderSection = ({ items, itemsPerSection, currentSlider }) => {
           {section?.map((item, idx) => (
             <div
               key={idx}
-              className={`grid grid-cols-1 lg:grid-cols-2 gap-y-10 py-5 gap-x-8 lg:gap-7 h-full  lg:h-80  `}
+              className={`grid grid-cols-1 lg:grid-cols-2 gap-y-10 py-5 px-2 gap-x-8 lg:gap-7 h-full  lg:h-80  `}
             >
-              <div>
+              <div className="relative group">
                 <img className="sm:h-72 " src={item.img} alt={item.title} />
+                <h4 className="absolute group-hover:hidden top-0 left-0 bg-orange-500 h-10 w-10 flex items-center justify-center text-white rounded-full">
+                  10%
+                </h4>
               </div>
               <div className="py-5 px-3 lg:p-0">
                 <ReactStars
