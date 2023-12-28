@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import useSlider1 from "../../api/useSlider1";
 import banner from "../../assets/advertisement.jpg";
 import Loading from "../loading/Loading";
@@ -142,7 +142,9 @@ const Slider2 = () => {
               <div
                 key={index}
                 className={`w-4 h-4  rounded-full cursor-pointer ${
-                  index === currentSlide ? "bg-orange-500  w-10" : "bg-gray-300"
+                  index === currentSlide
+                    ? "bg-orange-500  w-12 transition-all duration-150"
+                    : "bg-gray-300"
                 }`}
                 onClick={() => setCurrentSlider(index)}
               />
