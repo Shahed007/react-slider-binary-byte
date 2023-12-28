@@ -1,5 +1,7 @@
 const ArrowSlider = () => {
-  return <div>ArowSlider</div>;
+  return <section>
+    
+  </section>;
 };
 
 export default ArrowSlider;

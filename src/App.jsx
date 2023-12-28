@@ -1,5 +1,11 @@
+import ArrowSlider from "./components/arowSlider/ArrowSlider";
+
 function App() {
-  return <></>;
+  return (
+    <main>
+      <ArrowSlider></ArrowSlider>
+    </main>
+  );
 }
 
 export default App;

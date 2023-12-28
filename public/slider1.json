@@ -1,0 +1,44 @@
+[
+  {
+    "title": "HP EliteOne 840 G9 23.8 All-in-One PC Wolf Pro Security Edition",
+    "img": "https://i.ibb.co/sW6ZrQW/hp-elit-computer.png",
+    "price": 149.99,
+    "discount_price": 129.99,
+    "description": "The HP EliteOne 840 AiO empowers your team to be at their best with experiences that delight users and IT. Featuring a new sleek design, the latest Intel® processor[2], and packed with a new set of premium collaboration tools powered by HP Presence[3], it’s ready for all your demanding projects and virtual conferences."
+  },
+  {
+    "title": "JBL Charge Essential 2 Portable Bluetooth Speaker",
+    "img": "https://i.ibb.co/y0Gxbr0/JBL-bluetooth-speaker.webp",
+    "price": 79.99,
+    "discount_price": 69.99,
+    "description": "The JBL Charge Essential 2 Portable Bluetooth Speaker has a racetrack-shaped driver, a separate tweeter, and two pumping JBL passive radiators for deeper bass. The improved transducer generates more volume. The JBL Charge Essential 2 delivers tremendous sound everywhere you go."
+  },
+  {
+    "title": "Panasonic Street Bluetooth Wireless Headphones",
+    "img": "https://i.ibb.co/DfPS2H1/Panasonic-in-ear-wireless-headphone.webp",
+    "price": 49.99,
+    "discount_price": 39.99,
+    "description": "The HF420B headphones combine a clear, dynamic sound, with 50 hours non-stop playback, so you can immerse into your personal soundtrack."
+  },
+  {
+    "title": "Samsung Gear 360 - High Resolution VR Camera",
+    "img": "https://i.ibb.co/FVjfFqW/samsung-gear-360-camera.webp",
+    "price": 89.99,
+    "discount_price": 79.99,
+    "description": "The Gear 360 is the first affordable, high-resolution, consumer 360-degree camera - and the next step in VR's evolution to the mainstream."
+  },
+  {
+    "title": "Nikon D3500 Digital SLR Camera With AF-S 18-55mm VR Lens",
+    "img": "https://i.ibb.co/T4f4Qj3/D3500.png",
+    "price": 24.99,
+    "discount_price": 19.99,
+    "description": "You don't need to be a photographer to know a great photo when you see one. And you don't need to be a photographer to take a great photo—you just need the D3500. It's as easy to use as a point-and-shoot, but it takes beautiful DSLR photos and videos that get noticed. It feels outstanding in your hands, sturdy and balanced with controls where you want them. It's compact, durable and versatile, ideal for travel. And it works seamlessly with compatible smartphones, making it easier than ever to share your great photos. Even if you've never picked up a DSLR camera, you can take beautiful pictures with D3500."
+  },
+  {
+    "title": "Home - Smart Speaker with Google Assistant - White/Slate fabric",
+    "img": "https://i.ibb.co/dDRLwN2/googlehome.png",
+    "price": 129.99,
+    "discount_price": 109.99,
+    "description": "With Music Premium, you can use a simple voice command to stream ad-free music at home. After your first 14 days, you'll have the opportunity to extend your free trial for an additional 3 months.*"
+  }
+]
