@@ -40,5 +40,19 @@
     "price": 129.99,
     "discount_price": 109.99,
     "description": "With Music Premium, you can use a simple voice command to stream ad-free music at home. After your first 14 days, you'll have the opportunity to extend your free trial for an additional 3 months.*"
+  },
+  {
+    "title": "Panasonic Street Bluetooth Wireless Headphones",
+    "img": "https://i.ibb.co/DfPS2H1/Panasonic-in-ear-wireless-headphone.webp",
+    "price": 49.99,
+    "discount_price": 39.99,
+    "description": "The HF420B headphones combine a clear, dynamic sound, with 50 hours non-stop playback, so you can immerse into your personal soundtrack."
+  },
+  {
+    "title": "Samsung Gear 360 - High Resolution VR Camera",
+    "img": "https://i.ibb.co/FVjfFqW/samsung-gear-360-camera.webp",
+    "price": 89.99,
+    "discount_price": 79.99,
+    "description": "The Gear 360 is the first affordable, high-resolution, consumer 360-degree camera - and the next step in VR's evolution to the mainstream."
   }
 ]
