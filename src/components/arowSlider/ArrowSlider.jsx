@@ -23,7 +23,12 @@ const SliderSection = ({ items, itemsPerSection, currentSlider }) => {
       {sections.map((section, index) => (
         <div
           key={index}
-          className={`grid grid-cols-1 md:grid-cols-2   slider-section ${currentSlider}`}
+          className={`grid grid-cols-1 md:grid-cols-2 duration-500`}
+          style={{
+            flex: "0 0 100%",
+            boxSizing: "border-box",
+            transform: `translateX(-${currentSlider * 101}%)`,
+          }}
         >
           {section?.map((item, idx) => (
             <div
@@ -61,7 +66,7 @@ const SliderSection = ({ items, itemsPerSection, currentSlider }) => {
 
 const ArrowSlider = () => {
   const { slider1, loading } = useSlider1();
-  const { currentSlider, setCurrentSlider } = useState(0);
+  const [currentSlider, setCurrentSlider] = useState(1);
 
   if (loading)
     return (
@@ -71,7 +76,7 @@ const ArrowSlider = () => {
     );
   return (
     <section>
-      <div className="max-w-screen-xl mx-auto px-4 lg:p-3  overflow-x-hidden flex ">
+      <div className="max-w-screen-xl mx-auto px-4 lg:p-3 relative  overflow-x-hidden flex ">
         <SliderSection
           items={slider1}
           itemsPerSection={4}
