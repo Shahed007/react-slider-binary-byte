@@ -145,6 +145,8 @@ const ArrowSlider = () => {
         <Loading></Loading>
       </div>
     );
+
+   
   return (
     <section className="relative h-full mb-20 px-5 sm:px-5 mx-auto">
       <div className="lg:max-w-screen-xl  mx-auto  lg:p-3 relative  overflow-x-hidden flex  ">

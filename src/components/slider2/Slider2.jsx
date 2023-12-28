@@ -126,16 +126,28 @@ const Slider2 = () => {
         <Loading></Loading>
       </div>
     );
+  const totalSections = Math.ceil(slider1.length / 4);
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-7 max-w-screen-xl mx-auto  overflow-x-hidden">
       <div className="mt-20">
         <img className="h-64 w-full" src={banner} alt="banner" />
       </div>
       <div>
-        <div className="border-b border-gray-300 pb-2">
+        <div className="border-b border-gray-300 pb-2 flex justify-between">
           <h1 className="uppercase font-bold text-xl after:h-[2px] after:w-28 after:bg-orange-500 after:inline-block flex flex-col after:absolute relative after:-bottom-[9px] ">
             Bestseller
           </h1>
+          <div className="flex items-center gap-2 mr-20">
+            {[...Array(totalSections)].map((item, index) => (
+              <div
+                key={index}
+                className={`w-4 h-4  rounded-full cursor-pointer ${
+                  index === currentSlide ? "bg-orange-500  w-10" : "bg-gray-300"
+                }`}
+                onClick={() => setCurrentSlider(index)}
+              />
+            ))}
+          </div>
         </div>
         <div className="overflow-x-hidden flex">
           <SliderSection
